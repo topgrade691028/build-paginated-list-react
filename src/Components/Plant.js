@@ -24,7 +24,7 @@ const Plant = ({ plant }) => {
     <Container>
       {Object.entries(plant).map(([key, value]) => {
         return (
-          <div key={key}>
+          <div>
             <Key>{`${key} :`}</Key>
             <Value>{`${value}`}</Value>
           </div>

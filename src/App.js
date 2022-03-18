@@ -3,9 +3,9 @@ import PaginatedList from "./Components/PaginatedList";
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column; 
-  align-items: center,
-  marginTop: 2rem,
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
   > * {
     margin-right: 0.8rem;
   }
