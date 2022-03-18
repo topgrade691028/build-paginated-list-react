@@ -1,13 +1,20 @@
+:root {
+  --color-primary: rgb(123, 168, 119);
+  --color-primary-light: rgb(214, 244, 207);
+  --color-primary-dark: rgb(71, 92, 68);
+  --color-primary-disabled: rgb(103, 112, 99);
+  --color-secondary: rgb(148, 134, 107);
+  --color-background: rgb(255, 255, 255);
+
+  background-color: var(--color-background);
+  color: var(--color-primary-dark);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
